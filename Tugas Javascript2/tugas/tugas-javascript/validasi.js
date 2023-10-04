@@ -34,6 +34,7 @@ function validateForm() {
   var nim = document.getElementById('nim').value;
   var status = document.querySelector('input[name="status"]:checked').value;
   var programStudi = document.getElementById('program-studi').value;
+  var jenkel = document.getElementById('jenis-kelamin').value;
   var hobi = document.getElementById('hobi').value;
   var email = document.getElementById('email').value;
   var alamat = document.getElementById('alamat').value;
@@ -43,6 +44,7 @@ function validateForm() {
   var output = 'Data yang Anda masukkan telah tersimpan\n\n';
   output += 'Nama: ' + nama + '\n';
   output += 'NIM: ' + nim + '\n';
+  output += 'Jenis Kelamin: ' + jenkel + '\n';
   output += 'Status: ' + status + '\n';
   output += 'Program Studi: ' + programStudi + '\n';
   output += 'Hobi: ' + hobi + '\n';
